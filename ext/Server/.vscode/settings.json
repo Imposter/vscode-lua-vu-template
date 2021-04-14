@@ -1,9 +1,9 @@
 {
     "Lua.workspace.maxPreload": 10000,
-    "Lua.workspace.library": {    
-        ".vu/lib": true,
-        ".vu/types/fb": true,
-        ".vu/types/shared": true,
-        ".vu/types/server": true
-    }
+    "Lua.workspace.library": [
+        ".vu/lib",
+        ".vu/types/fb",
+        ".vu/types/shared",
+        ".vu/types/server"
+    ]
 }
