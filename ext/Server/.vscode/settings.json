@@ -1,9 +1,12 @@
 {
-    "Lua.workspace.maxPreload": 10000,
-    "Lua.workspace.library": [
-        ".vu/lib",
-        ".vu/types/fb",
-        ".vu/types/shared",
-        ".vu/types/server"
-    ]
+    "Lua": {
+        "workspace": {
+            "maxPreload": 10000,
+            "library": [
+                "../../.vu/intermediate/Server",
+                "../../.vu/intermediate/Shared",
+                "../Shared"
+            ]
+        }
+    }
 }
