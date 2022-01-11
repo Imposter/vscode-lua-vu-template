@@ -13,7 +13,7 @@
 			"path": "ext\\Client"
 		}
 	],
-    "settings": {
-        "Lua.workspace.maxPreload": 10000
-    }
+	"settings": {
+		"Lua.workspace.maxPreload": 10000
+	}
 }
